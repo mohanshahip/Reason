@@ -22,11 +22,15 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://studynepal.edu.np"),
+
   title: {
     default: "Reason Education Consultancy | Best Study Abroad Experts in Nepal",
     template: "%s | Reason Education Consultancy",
   },
-  description: "Leading study abroad consultancy in New Baneswor, Kathmandu. Expert counseling for USA, Canada, UK, Australia, New Zealand, Europe, and Japan. Join IELTS/PTE classes today.",
+
+  description:
+    "Leading study abroad consultancy in New Baneswor, Kathmandu. Expert counseling for USA, Canada, UK, Australia, New Zealand, Europe, and Japan. Join IELTS/PTE classes today.",
+
   keywords: [
     "study abroad nepal",
     "ielts classes kathmandu",
@@ -37,26 +41,31 @@ export const metadata: Metadata = {
     "student visa nepal",
     "study overseas nepal",
   ],
-  authors: [{ name: "Reason Education Consultancy", url: "https://studynepal.edu.np" }],
+
+  authors: [
+    {
+      name: "Reason Education Consultancy",
+      url: "https://studynepal.edu.np",
+    },
+  ],
+
   creator: "Reason Education Consultancy",
   publisher: "Reason Education Consultancy",
-  icons: {
-     icon: "/logo/NEW.png",
-     shortcut: "/logo/NEW.png",
-     apple: "/logo/NEW.png",
-   },
+
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
+
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://studynepal.edu.np",
     siteName: "Reason Education Consultancy",
     title: "Reason Education Consultancy | Best Study Abroad Experts in Nepal",
-    description: "Achieve your dreams of global education with the most trusted consultancy in New Baneswor, Kathmandu. Expert visa and admission support.",
+    description:
+      "Achieve your dreams of global education with the most trusted consultancy in New Baneswor, Kathmandu. Expert visa and admission support.",
     images: [
       {
         url: "https://images.unsplash.com/photo-1523050335392-93851179ae22?q=80&w=1200&h=630&auto=format&fit=crop",
@@ -67,13 +76,18 @@ export const metadata: Metadata = {
       },
     ],
   },
+
   twitter: {
     card: "summary_large_image",
     title: "Reason Education Consultancy | Study Abroad from Nepal",
-    description: "Expert study abroad counseling and visa assistance for Nepalese students. Canada, Australia, UK, USA, and more.",
-    images: ["https://images.unsplash.com/photo-1523050335392-93851179ae22?q=80&w=1200&h=630&auto=format&fit=crop"],
+    description:
+      "Expert study abroad counseling and visa assistance for Nepalese students. Canada, Australia, UK, USA, and more.",
+    images: [
+      "https://images.unsplash.com/photo-1523050335392-93851179ae22?q=80&w=1200&h=630&auto=format&fit=crop",
+    ],
     creator: "@reasoneducation",
   },
+
   robots: {
     index: true,
     follow: true,
@@ -86,20 +100,17 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+
   icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/icon.svg", type: "image/svg+xml" },
-    ],
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
       <body className="font-sans antialiased text-primary selection:bg-accent/20 overflow-x-hidden">

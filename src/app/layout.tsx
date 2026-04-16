@@ -101,14 +101,10 @@ export const metadata: Metadata = {
     },
   },
 
-  icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/icon.svg", type: "image/svg+xml" },
-    ],
-    shortcut: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
-  },
+ icons: {
+  icon: "/favicon.ico",
+  apple: "/apple-touch-icon.png",
+},
 };
 
 export default function RootLayout({

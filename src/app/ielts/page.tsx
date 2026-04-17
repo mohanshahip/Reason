@@ -206,7 +206,7 @@ const IELTSPage = () => {
                   </span>
                 </Link>
                 <a 
-                  href="https://wa.me/9779801085977" 
+                  href="https://wa.me/9779801085977?text=Hello%20Reason%20Education%2C%20I%20have%20a%20question%20about%20studying%20abroad.%20Can%20you%20help%20me%3F" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto px-8 py-4 bg-white text-primary border-2 border-gray-200 rounded-xl font-bold hover:bg-gray-50 hover:border-gray-300 transition-all flex items-center justify-center gap-3 text-base"

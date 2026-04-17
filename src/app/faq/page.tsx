@@ -107,7 +107,7 @@ const FAQPage = () => {
               <p className="text-base text-primary/70 font-medium mb-6">Our expert counselors are ready to help you with personalized answers.</p>
               <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
                  <Link href="/contact" className="btn-primary py-3.5 px-8 text-base">Talk to an Expert</Link>
-                 <a href="https://wa.me/9779801085977" className="bg-white border-2 border-primary/10 px-8 py-3.5 rounded-xl font-bold hover:bg-primary hover:text-white transition-all text-base">Chat on WhatsApp</a>
+                 <a href="https://wa.me/9779801085977?text=Hello%20Reason%20Education%2C%20I%20have%20a%20question%20about%20studying%20abroad.%20Can%20you%20help%20me%3F" className="bg-white border-2 border-primary/10 px-8 py-3.5 rounded-xl font-bold hover:bg-primary hover:text-white transition-all text-base">Chat on WhatsApp</a>
               </div>
            </div>
         </div>

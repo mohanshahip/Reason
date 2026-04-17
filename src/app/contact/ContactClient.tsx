@@ -97,7 +97,7 @@ const ContactClient = () => {
                          { Icon: Facebook, href: "https://www.facebook.com/ReasonEducationNepal", label: "Facebook" },
                          { Icon: Instagram, href: "https://www.instagram.com/reasoneducation", label: "Instagram" },
                          { Icon: Linkedin, href: "https://www.linkedin.com/company/reason-education-consultancy", label: "Linkedin" },
-                         { Icon: MessageCircle, href: "https://wa.me/9779801085977", label: "WhatsApp" }
+                         { Icon: MessageCircle, href: "https://wa.me/9779801085977?text=Hello%20Reason%20Education%2C%20I%20have%20a%20question%20about%20studying%20abroad.%20Can%20you%20help%20me%3F", label: "WhatsApp" }
                        ].map(({ Icon, href, label }, i) => (
                          <a 
                            key={i} 

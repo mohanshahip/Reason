@@ -35,7 +35,7 @@ const CTA = () => {
             </Link>
             
             <a
-              href="https://wa.me/9779801085977"
+              href="https://wa.me/9779801085977?text=Hello%20Reason%20Education%2C%20I%20have%20a%20question%20about%20studying%20abroad.%20Can%20you%20help%20me%3F"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto flex items-center justify-center gap-3 sm:gap-4 text-white border-2 border-white/20 hover:border-white px-6 sm:px-8 py-4 sm:py-5 rounded-xl sm:rounded-2xl font-bold text-base sm:text-lg transition-all hover:bg-white/5 group"

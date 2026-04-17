@@ -126,11 +126,11 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-xs text-white/40 font-bold">
-            © 2026 Reason Education Consultancy. <span className="text-white/20 ml-2 hidden sm:inline">|</span> <span className="sm:ml-2">Crafted for Excellence.</span>
+            © 2026 Reason Education Consultancy. <span className="text-white/20 ml-2 hidden sm:inline">|</span> <span className="sm:ml-2">All Technical Rights Reserved <a href="https://darbartech.com" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">Darbartech.com</a></span>
           </p>
           <div className="flex flex-wrap justify-center gap-6 text-xs font-bold text-white/40">
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
-            <Link href="/terms" className="hover:text-white transition-colors">Terms of Service @all right reserved by reason</Link>
+            <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
             <Link href="/sitemap.xml" className="hover:text-white transition-colors">Sitemap</Link>
           </div>
         </div>

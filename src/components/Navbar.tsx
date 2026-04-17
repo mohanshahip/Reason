@@ -176,7 +176,7 @@ const Navbar = () => {
                   <Phone size={20} />
                   <span>Call</span>
                </a>
-               <a href="https://wa.me/9779801085977" className="flex items-center justify-center space-x-3 py-4 rounded-2xl bg-gray-50 text-primary font-bold hover:bg-green-500 hover:text-white transition-all border border-gray-100" aria-label="WhatsApp Us">
+               <a href="https://wa.me/9779801085977?text=Hello%20Reason%20Education%2C%20I%20have%20a%20question%20about%20studying%20abroad.%20Can%20you%20help%20me%3F" className="flex items-center justify-center space-x-3 py-4 rounded-2xl bg-gray-50 text-primary font-bold hover:bg-green-500 hover:text-white transition-all border border-gray-100" aria-label="WhatsApp Us">
                   <MessageCircle size={20} />
                   <span>Chat</span>
                </a>
